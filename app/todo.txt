@@ -1,0 +1,12 @@
+Implement a simple Android Beer Catalog app that runs on all Android devices running
+Android Version 8.1+. This application’s purpose is to fetch information about different kinds
+of beers from a remote HTTP server and display them to the user as a list.
+
+The app has a single screen that shows a list of 10 random beers, with the name, brand and
+alcohol content of each beer shown. This list is automatically refreshed every 10 seconds
+with new beers and their information.
+
+The list of beers will be fetched in JSON from HTTP server via a GET request using
+the following URL:
+
+https://random-data-api.com/api/v2/beers?size=10&response_type=json
